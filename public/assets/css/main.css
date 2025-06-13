@@ -1457,3 +1457,19 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/* Dark Mode Dasar */
+.dark-mode {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
+
+.dark-mode .header,
+.dark-mode .section {
+  background-color: #1e1e1e !important;
+  color: #ffffff !important;
+}
+
+.dark-mode a {
+  color: #4dabf7 !important;
+}
