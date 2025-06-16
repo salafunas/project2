@@ -225,23 +225,5 @@
   }
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
-
- // Dark Mode Sederhana
-const darkToggle = document.getElementById('simple-dark-toggle');
-const html = document.documentElement;
-
-// Cek preferensi tersimpan
-if (localStorage.getItem('darkMode') === 'true') {
-  html.classList.add('dark-mode');
-  darkToggle.textContent = '☀️';
-}
-
-// Fungsi toggle
-darkToggle.addEventListener('click', () => {
-  html.classList.toggle('dark-mode');
   
-  const isDark = html.classList.contains('dark-mode');
-  localStorage.setItem('darkMode', isDark);
-  darkToggle.textContent = isDark ? '☀️' : '🌙';
-});
 })();
