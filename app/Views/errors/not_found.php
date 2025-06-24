@@ -27,7 +27,7 @@ IW3" crossorigin="anonymous">
             border-radius: .25rem
         }
 
-        . card .card-header {
+        .card .card-header {
             background-color: #fff;
             border-bottom: none;
         }
